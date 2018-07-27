@@ -1,0 +1,95 @@
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+exports.bot = bot;
+
+bot.login('NDcyMTgzODY2MTQ5NDM3NDQ1.Djv63Q.kJTRGPq4wvzxt1fh0Qu0mv1R0NY');
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!ping')){
+        message.channel.send('pong!')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!formulário')){
+        message.channel.send('Aplique-se acessando http://encurtador.com.br/rtCIW, boa sorte. :D')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!twitter')){
+        message.channel.send('Siga o twitter do servidor e fique por dentro das novidades, https://twitter.com/redestechy')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!form-build')){
+        message.channel.send('Aplique-se para à equipe de construtores acessando https://bit.ly/2LeYz1e, boa sorte. :D')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!fb')){
+        message.channel.send('Acesse a página do servidor no Facebook e fique por dentro das novidades, basta acessar https://fb.com/redestechy.')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!fórum')){
+        message.channel.send('Nosso fórum está em desenvolvimento, e será divulgado assim que pronto.')
+    }
+})
+
+bot.on('message', message =>{
+    if (message.content.startsWith('!Endereços')){
+        message.channel.send('FACEBOOK: https://fb.com/redestechy')
+        message.channel.send('TWITTER: https://twitter.com/redestechy')
+        message.channel.send('DISCORD: https://discord.me/techy')
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bot.on('message', message =>{
+    if(message.content.startsWith('!Staff')){
+        message.channel.send('CEOS:')
+        message.channel.send('Defaulti')
+        message.channel.send('firethekill')
+        message.channel.send('Stypieee')
+        message.channel.send('JaaoBr')
+        message.channel.send('TalTBest')
+
+        message.channel.send('--------------------------------------------')
+
+        message.channel.send('GERENTES:')
+        message.channel.send('zIsaacz_')
+        message.channel.send('iKiraG0D')
+
+        message.channel.send('---------------------------------------------')
+
+        message.channel.send('AJUDANTES:')
+        message.channel.send('666FOXY')
+        message.channel.send('iagoXD')
+        message.channel.send('MeloZ7')
+        message.channel.send('Fhinn_Games')
+        message.channel.send('oLeooZ')
+    }
+})
